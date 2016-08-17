@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68BB87D61D64463F00B8DF59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB87D51D64463F00B8DF59 /* main.m */; };
+		68BB87D91D64463F00B8DF59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB87D81D64463F00B8DF59 /* AppDelegate.m */; };
+		68BB87DF1D64463F00B8DF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BB87DD1D64463F00B8DF59 /* Main.storyboard */; };
+		68BB87E11D64463F00B8DF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BB87E01D64463F00B8DF59 /* Assets.xcassets */; };
+		68BB87E41D64463F00B8DF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BB87E21D64463F00B8DF59 /* LaunchScreen.storyboard */; };
+		68BB87EF1D64464000B8DF59 /* EncryptedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB87EE1D64464000B8DF59 /* EncryptedTests.m */; };
+		68BB87FA1D64464000B8DF59 /* EncryptedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB87F91D64464000B8DF59 /* EncryptedUITests.m */; };
+		68BB88091D64467F00B8DF59 /* MD5Encrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB88081D64467F00B8DF59 /* MD5Encrypter.m */; };
+		68BB880D1D6446CE00B8DF59 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB880B1D6446CE00B8DF59 /* TableViewController.m */; };
+		68BB88111D64497300B8DF59 /* MD5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB88101D64497300B8DF59 /* MD5Controller.m */; };
+		68BB88141D64498000B8DF59 /* AESController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB88131D64498000B8DF59 /* AESController.m */; };
+		68BB881F1D644EEF00B8DF59 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB881E1D644EEF00B8DF59 /* NSData+AES256.m */; };
+		68BB88221D644F8D00B8DF59 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB88211D644F8D00B8DF59 /* NSString+AES256.m */; };
+		68BB88261D64574E00B8DF59 /* Base64Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB88251D64574E00B8DF59 /* Base64Controller.m */; };
+		68BB88291D64576400B8DF59 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB88281D64576400B8DF59 /* Base64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68BB87EB1D64464000B8DF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BB87C91D64463F00B8DF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68BB87D01D64463F00B8DF59;
+			remoteInfo = Encrypted;
+		};
+		68BB87F61D64464000B8DF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BB87C91D64463F00B8DF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68BB87D01D64463F00B8DF59;
+			remoteInfo = Encrypted;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68BB87D11D64463F00B8DF59 /* Encrypted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encrypted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BB87D51D64463F00B8DF59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68BB87D71D64463F00B8DF59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68BB87D81D64463F00B8DF59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68BB87DE1D64463F00B8DF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68BB87E01D64463F00B8DF59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68BB87E31D64463F00B8DF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68BB87E51D64464000B8DF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BB87EA1D64464000B8DF59 /* EncryptedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BB87EE1D64464000B8DF59 /* EncryptedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptedTests.m; sourceTree = "<group>"; };
+		68BB87F01D64464000B8DF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BB87F51D64464000B8DF59 /* EncryptedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BB87F91D64464000B8DF59 /* EncryptedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptedUITests.m; sourceTree = "<group>"; };
+		68BB87FB1D64464000B8DF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BB88071D64467F00B8DF59 /* MD5Encrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encrypter.h; sourceTree = "<group>"; };
+		68BB88081D64467F00B8DF59 /* MD5Encrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encrypter.m; sourceTree = "<group>"; };
+		68BB880A1D6446CE00B8DF59 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		68BB880B1D6446CE00B8DF59 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		68BB880F1D64497300B8DF59 /* MD5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Controller.h; sourceTree = "<group>"; };
+		68BB88101D64497300B8DF59 /* MD5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Controller.m; sourceTree = "<group>"; };
+		68BB88121D64498000B8DF59 /* AESController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESController.h; sourceTree = "<group>"; };
+		68BB88131D64498000B8DF59 /* AESController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESController.m; sourceTree = "<group>"; };
+		68BB881D1D644EEF00B8DF59 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		68BB881E1D644EEF00B8DF59 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		68BB88201D644F8D00B8DF59 /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		68BB88211D644F8D00B8DF59 /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		68BB88241D64574E00B8DF59 /* Base64Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Controller.h; sourceTree = "<group>"; };
+		68BB88251D64574E00B8DF59 /* Base64Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Controller.m; sourceTree = "<group>"; };
+		68BB88271D64576400B8DF59 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		68BB88281D64576400B8DF59 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BB87CE1D64463F00B8DF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BB87E71D64464000B8DF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BB87F21D64464000B8DF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BB87C81D64463F00B8DF59 = {
+			isa = PBXGroup;
+			children = (
+				68BB87D31D64463F00B8DF59 /* Encrypted */,
+				68BB87ED1D64464000B8DF59 /* EncryptedTests */,
+				68BB87F81D64464000B8DF59 /* EncryptedUITests */,
+				68BB87D21D64463F00B8DF59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68BB87D21D64463F00B8DF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68BB87D11D64463F00B8DF59 /* Encrypted.app */,
+				68BB87EA1D64464000B8DF59 /* EncryptedTests.xctest */,
+				68BB87F51D64464000B8DF59 /* EncryptedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68BB87D31D64463F00B8DF59 /* Encrypted */ = {
+			isa = PBXGroup;
+			children = (
+				68BB87D71D64463F00B8DF59 /* AppDelegate.h */,
+				68BB87D81D64463F00B8DF59 /* AppDelegate.m */,
+				68BB880A1D6446CE00B8DF59 /* TableViewController.h */,
+				68BB880B1D6446CE00B8DF59 /* TableViewController.m */,
+				68BB88231D64572F00B8DF59 /* Base64 */,
+				68BB88181D644E3F00B8DF59 /* MD5 */,
+				68BB88191D644E5D00B8DF59 /* AES */,
+				68BB87DD1D64463F00B8DF59 /* Main.storyboard */,
+				68BB87E01D64463F00B8DF59 /* Assets.xcassets */,
+				68BB87E21D64463F00B8DF59 /* LaunchScreen.storyboard */,
+				68BB87E51D64464000B8DF59 /* Info.plist */,
+				68BB87D41D64463F00B8DF59 /* Supporting Files */,
+			);
+			path = Encrypted;
+			sourceTree = "<group>";
+		};
+		68BB87D41D64463F00B8DF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68BB87D51D64463F00B8DF59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68BB87ED1D64464000B8DF59 /* EncryptedTests */ = {
+			isa = PBXGroup;
+			children = (
+				68BB87EE1D64464000B8DF59 /* EncryptedTests.m */,
+				68BB87F01D64464000B8DF59 /* Info.plist */,
+			);
+			path = EncryptedTests;
+			sourceTree = "<group>";
+		};
+		68BB87F81D64464000B8DF59 /* EncryptedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68BB87F91D64464000B8DF59 /* EncryptedUITests.m */,
+				68BB87FB1D64464000B8DF59 /* Info.plist */,
+			);
+			path = EncryptedUITests;
+			sourceTree = "<group>";
+		};
+		68BB88181D644E3F00B8DF59 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				68BB880F1D64497300B8DF59 /* MD5Controller.h */,
+				68BB88101D64497300B8DF59 /* MD5Controller.m */,
+				68BB88071D64467F00B8DF59 /* MD5Encrypter.h */,
+				68BB88081D64467F00B8DF59 /* MD5Encrypter.m */,
+			);
+			name = MD5;
+			sourceTree = "<group>";
+		};
+		68BB88191D644E5D00B8DF59 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				68BB88121D64498000B8DF59 /* AESController.h */,
+				68BB88131D64498000B8DF59 /* AESController.m */,
+				68BB881D1D644EEF00B8DF59 /* NSData+AES256.h */,
+				68BB881E1D644EEF00B8DF59 /* NSData+AES256.m */,
+				68BB88201D644F8D00B8DF59 /* NSString+AES256.h */,
+				68BB88211D644F8D00B8DF59 /* NSString+AES256.m */,
+			);
+			name = AES;
+			sourceTree = "<group>";
+		};
+		68BB88231D64572F00B8DF59 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				68BB88241D64574E00B8DF59 /* Base64Controller.h */,
+				68BB88251D64574E00B8DF59 /* Base64Controller.m */,
+				68BB88271D64576400B8DF59 /* Base64.h */,
+				68BB88281D64576400B8DF59 /* Base64.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68BB87D01D64463F00B8DF59 /* Encrypted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BB87FE1D64464000B8DF59 /* Build configuration list for PBXNativeTarget "Encrypted" */;
+			buildPhases = (
+				68BB87CD1D64463F00B8DF59 /* Sources */,
+				68BB87CE1D64463F00B8DF59 /* Frameworks */,
+				68BB87CF1D64463F00B8DF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Encrypted;
+			productName = Encrypted;
+			productReference = 68BB87D11D64463F00B8DF59 /* Encrypted.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68BB87E91D64464000B8DF59 /* EncryptedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BB88011D64464000B8DF59 /* Build configuration list for PBXNativeTarget "EncryptedTests" */;
+			buildPhases = (
+				68BB87E61D64464000B8DF59 /* Sources */,
+				68BB87E71D64464000B8DF59 /* Frameworks */,
+				68BB87E81D64464000B8DF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BB87EC1D64464000B8DF59 /* PBXTargetDependency */,
+			);
+			name = EncryptedTests;
+			productName = EncryptedTests;
+			productReference = 68BB87EA1D64464000B8DF59 /* EncryptedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68BB87F41D64464000B8DF59 /* EncryptedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BB88041D64464000B8DF59 /* Build configuration list for PBXNativeTarget "EncryptedUITests" */;
+			buildPhases = (
+				68BB87F11D64464000B8DF59 /* Sources */,
+				68BB87F21D64464000B8DF59 /* Frameworks */,
+				68BB87F31D64464000B8DF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BB87F71D64464000B8DF59 /* PBXTargetDependency */,
+			);
+			name = EncryptedUITests;
+			productName = EncryptedUITests;
+			productReference = 68BB87F51D64464000B8DF59 /* EncryptedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68BB87C91D64463F00B8DF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "dev.liufeng@gmail.com";
+				TargetAttributes = {
+					68BB87D01D64463F00B8DF59 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T6A5794LJU;
+					};
+					68BB87E91D64464000B8DF59 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T6A5794LJU;
+						TestTargetID = 68BB87D01D64463F00B8DF59;
+					};
+					68BB87F41D64464000B8DF59 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T6A5794LJU;
+						TestTargetID = 68BB87D01D64463F00B8DF59;
+					};
+				};
+			};
+			buildConfigurationList = 68BB87CC1D64463F00B8DF59 /* Build configuration list for PBXProject "Encrypted" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68BB87C81D64463F00B8DF59;
+			productRefGroup = 68BB87D21D64463F00B8DF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68BB87D01D64463F00B8DF59 /* Encrypted */,
+				68BB87E91D64464000B8DF59 /* EncryptedTests */,
+				68BB87F41D64464000B8DF59 /* EncryptedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68BB87CF1D64463F00B8DF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BB87E41D64463F00B8DF59 /* LaunchScreen.storyboard in Resources */,
+				68BB87E11D64463F00B8DF59 /* Assets.xcassets in Resources */,
+				68BB87DF1D64463F00B8DF59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BB87E81D64464000B8DF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BB87F31D64464000B8DF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68BB87CD1D64463F00B8DF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BB88221D644F8D00B8DF59 /* NSString+AES256.m in Sources */,
+				68BB88111D64497300B8DF59 /* MD5Controller.m in Sources */,
+				68BB88141D64498000B8DF59 /* AESController.m in Sources */,
+				68BB87D91D64463F00B8DF59 /* AppDelegate.m in Sources */,
+				68BB87D61D64463F00B8DF59 /* main.m in Sources */,
+				68BB88091D64467F00B8DF59 /* MD5Encrypter.m in Sources */,
+				68BB88291D64576400B8DF59 /* Base64.m in Sources */,
+				68BB881F1D644EEF00B8DF59 /* NSData+AES256.m in Sources */,
+				68BB880D1D6446CE00B8DF59 /* TableViewController.m in Sources */,
+				68BB88261D64574E00B8DF59 /* Base64Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BB87E61D64464000B8DF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BB87EF1D64464000B8DF59 /* EncryptedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BB87F11D64464000B8DF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BB87FA1D64464000B8DF59 /* EncryptedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68BB87EC1D64464000B8DF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68BB87D01D64463F00B8DF59 /* Encrypted */;
+			targetProxy = 68BB87EB1D64464000B8DF59 /* PBXContainerItemProxy */;
+		};
+		68BB87F71D64464000B8DF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68BB87D01D64463F00B8DF59 /* Encrypted */;
+			targetProxy = 68BB87F61D64464000B8DF59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68BB87DD1D64463F00B8DF59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BB87DE1D64463F00B8DF59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68BB87E21D64463F00B8DF59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BB87E31D64463F00B8DF59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68BB87FC1D64464000B8DF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68BB87FD1D64464000B8DF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68BB87FF1D64464000B8DF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Encrypted/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiuFeng.Encrypted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68BB88001D64464000B8DF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Encrypted/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiuFeng.Encrypted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68BB88021D64464000B8DF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EncryptedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiuFeng.EncryptedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Encrypted.app/Encrypted";
+			};
+			name = Debug;
+		};
+		68BB88031D64464000B8DF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EncryptedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiuFeng.EncryptedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Encrypted.app/Encrypted";
+			};
+			name = Release;
+		};
+		68BB88051D64464000B8DF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EncryptedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiuFeng.EncryptedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Encrypted;
+			};
+			name = Debug;
+		};
+		68BB88061D64464000B8DF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EncryptedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiuFeng.EncryptedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Encrypted;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BB87CC1D64463F00B8DF59 /* Build configuration list for PBXProject "Encrypted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BB87FC1D64464000B8DF59 /* Debug */,
+				68BB87FD1D64464000B8DF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BB87FE1D64464000B8DF59 /* Build configuration list for PBXNativeTarget "Encrypted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BB87FF1D64464000B8DF59 /* Debug */,
+				68BB88001D64464000B8DF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68BB88011D64464000B8DF59 /* Build configuration list for PBXNativeTarget "EncryptedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BB88021D64464000B8DF59 /* Debug */,
+				68BB88031D64464000B8DF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68BB88041D64464000B8DF59 /* Build configuration list for PBXNativeTarget "EncryptedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BB88051D64464000B8DF59 /* Debug */,
+				68BB88061D64464000B8DF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BB87C91D64463F00B8DF59 /* Project object */;
+}
